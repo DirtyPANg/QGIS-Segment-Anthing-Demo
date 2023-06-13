@@ -1,0 +1,2 @@
+you need pick sam_vit_h_4b8939.pth to segment_screen\function_scrip\sam_vit_h_4b8939.pth    
+it download at https://github.com/facebookresearch/segment-anything  default or vit_h: ViT-H SAM model.
