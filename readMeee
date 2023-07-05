@@ -1,2 +1,12 @@
-you need pick sam_vit_h_4b8939.pth to segment_screen\function_scrip\sam_vit_h_4b8939.pth    
+It works QGIS 3.28.4 win10
+Then download git on internet(install defaultly is okay)
+For torch and other environment,you need open OSGeo4W Shell
+Then type
+python3 -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
+For install segment-anything module in git,you need type set path=>SET git location (such as set path=>SET C:\Program Files\Git\bin) in OSGeo4W Shell
+Then type 
+pip install git+https://github.com/facebookresearch/segment-anything.git
+
+The demo need install to specific location such as C:\Users\admin\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\segment_screen.
+Then you need pick sam_vit_h_4b8939.pth to segment_screen\function_scrip\sam_vit_h_4b8939.pth    
 it download at https://github.com/facebookresearch/segment-anything  default or vit_h: ViT-H SAM model.
